@@ -1,31 +1,36 @@
+body	{
+	margin:0;
+	padding:0;
+}
 .container	{
 	width:100%;
-	margin-left:5%;
-	padding:20px;
+	margin:0;
+	padding:20px 0px;
 }
 header	{
 	color:white;
-	background-color:royalblue;
+	background-color:#19628A;
 	letter-spacing:normal;
 	word-spacing:0.2em;
-	font-style:roboto;
+	font-family:roboto;
 	font-size:20px;
 	margin:auto;
+	padding-left:5%;
 }
 .fifty	{
 	position:relative;
 	width:50%;
 	display:inline-block;
 	overflow:hidden;
-	margin:auto%;
+	margin:auto;
 }
 h1	{
 	font-weight:bold;
-	font-size:40px
+	font-size:40px;
 }
 button	{
 	color:white;
-	background-color:orange;
+	background-color:#FD862F;
 	padding:12px;
 	width:30%;
 	font-weight:bold;
@@ -37,16 +42,23 @@ img	{
 	margin-left:15%;
 	padding:20px;
 }
+main	{
+	padding-bottom:5%;
+	padding-left:5%;
+}
 input	{
+	color:#CCCCCC;
 	width:30%;
 	padding:15px;
-	border-bottom:10px;
 	line-height:1.5em
 }
+br	{
+	line-height:1.5em;
+}
 table	{
-	border:1;
+	border:1 #AAAAAA;
 	border-collapse:collapse;
-	width:40%
+	width:35%
 }
 th	{
 	height:50px;
@@ -63,11 +75,61 @@ td	{
 caption	{
 	caption-side:top;
 	font-size:20px;
-	font-weight:bold
+	font-weight:bold;
+	text-align:left;
+}
+.s-header	{
+	padding:30px;
+	text-align:center;
+}
+ul	{
+	list-style-type:none;
+	margin:0%;
+	padding:0%;
+	overflow:hidden;
+}
+.logo	{
+	padding:8px;
+	float:left;
+	top:0;
+}
+li	{
+	display:inline;
+	padding:8px;
+	float:right;
+}
+a	{
+	color:white;
+}	
+.thirty 	{
+	position:relative;
+	width:35%;
+	display:inline-block;
+	overflow:hidden;
+	margin:0%;
+}
+.sixty	{
+	position:relative;
+	width:60%;
+	display:inline-block;
+	overflow:hidden;
+	margin:0%;
+}
+.image	{
+	width:60%;
+	height:auto;
+	margin:auto;
+	padding:5%;
+}
+.header1	{
+	padding-right:10%;
+}
+.header2	{
+	background-color:#EEEEEE;
 }
 footer	{
 	color:white;
-	background-color:gray;
+	background-color:#333333;
 	letter-spacing:normal;
 	word-spacing:0.2em;
 	font-style:roboto;
