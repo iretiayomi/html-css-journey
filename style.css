@@ -4,28 +4,30 @@ body	{
 	font-family:roboto;
 	font-size:22px;
 	letter-spacing:normal;
-	word-spacing:0.2em;
-	line-height:1.6em
+	word-spacing:normal;
+	line-height:1.6em;
 }
 .container	{
-	width:100%;
-	margin:0;
-	padding:20px 0px;
+	width:85%;
+	margin:0 auto;
 }
 header	{
 	color:white;
 	background-color:#19628A;
-	padding-left:3%;
+	padding-bottom:30px;
 }
 .fifty	{
 	width:49%;
 	display:inline-block;
-	overflow:hidden;
 	vertical-align:top;
+	overflow:hidden;
 }
 h1	{
 	font-weight:bold;
 	font-size:45px;
+}
+h2	{
+	font-size:30px;
 }
 button	{
 	color:white;
@@ -41,26 +43,24 @@ button	{
 	width:500px;
 }
 img	{
-	width:200px;
-	height:auto;
-	padding-top:20%;
-	margin-left:30%;
+	width:240px;
+	display:block;
+	margin:auto;
+	margin-top:20px;
 }
 main	{
 	padding-bottom:5%;
-	padding-left:3%;
 }
 input	{
 	color:#CCCCCC;
+	padding:10px;
+	border:1px solid #CCCCCC;
 	width:300px;
-	padding:15px;
-	line-height:1.5em;
-	border:1px solid gray;
 }
 input[value=Message]
 {
 	width:300px;
-	height:200px;
+	height:120px;
 	padding:20px;
 }
 input[type=submit]
@@ -71,30 +71,27 @@ input[type=submit]
 	font-size:22px;
 	font-weight:bold;
 	border:none;
-	padding:20px;
+	padding:10px;
 	cursor:pointer;
 }
 table	{
 	border-collapse:collapse;
-	width:300px;
+	border-color:#CCCCCC;
+	width:400px;
 }
 th	{
 	height:20px;
 	text-align:center;
 	vertical-align:middle;
 	padding:15px;
+	border-color:#CCCCCC;
+	
 }
 td	{
 	text-align:center;
 	vertical-align:middle;
-	padding:15px;
-}
-
-caption	{
-	caption-side:top;
-	font-size:20px;
-	font-weight:bold;
-	text-align:left;
+	padding:12px;
+	border-color:#CCCCCC;
 }
 .s-header	{
 	padding:30px;
@@ -115,8 +112,7 @@ ul	{
 li	{
 	display:inline;
 	padding:8px;
-	float:right;
-	text-decoration:none;
+	float:right
 }
 a	{
 	color:white;
@@ -150,9 +146,7 @@ a	{
 footer	{
 	color:white;
 	background-color:#333333;
-	letter-spacing:normal;
-	word-spacing:0.2em;
-	font-style:roboto;
+	font-size:19px;
 	padding:30px;
 	text-align:center;
 	clear:both;
