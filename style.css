@@ -2,7 +2,7 @@ body	{
 	margin:0;
 	padding:0;
 	font-family:roboto;
-	font-size:22px;
+	font-size:24px;
 	letter-spacing:normal;
 	word-spacing:normal;
 	line-height:1.6em;
@@ -24,7 +24,7 @@ header	{
 }
 h1	{
 	font-weight:bold;
-	font-size:45px;
+	font-size:50px;
 }
 h2	{
 	font-size:30px;
@@ -42,11 +42,11 @@ button	{
 .paragraph	{
 	width:500px;
 }
-img	{
+.right	{
+	text-align:right;
+}
+.web image	{
 	width:240px;
-	display:block;
-	margin:auto;
-	margin-top:20px;
 }
 main	{
 	padding-bottom:5%;
@@ -74,7 +74,11 @@ input[type=submit]
 	padding:10px;
 	cursor:pointer;
 }
+.table-h	{
+	margin-left:100px;
+}
 table	{
+	margin-left:100px;
 	border-collapse:collapse;
 	border-color:#CCCCCC;
 	width:400px;
@@ -112,7 +116,6 @@ ul	{
 li	{
 	display:inline;
 	padding:8px;
-	float:right
 }
 a	{
 	color:white;
@@ -144,11 +147,13 @@ a	{
 	background-color:#EEEEEE;
 }
 footer	{
+	position:relative;
+	bottom:0;
+	width:100%;
 	color:white;
 	background-color:#333333;
 	font-size:19px;
 	padding:30px;
 	text-align:center;
-	clear:both;
 }
 
