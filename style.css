@@ -45,8 +45,8 @@ button	{
 .right	{
 	text-align:right;
 }
-.web image	{
-	width:240px;
+.www-image	{
+	width:300px;
 }
 main	{
 	padding-bottom:5%;
@@ -74,11 +74,11 @@ input[type=submit]
 	padding:10px;
 	cursor:pointer;
 }
-.table-h	{
-	margin-left:100px;
+.center	{
+	text-align:center;
 }
 table	{
-	margin-left:100px;
+	margin-left:auto;
 	border-collapse:collapse;
 	border-color:#CCCCCC;
 	width:400px;
