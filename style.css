@@ -10,6 +10,8 @@ body	{
 .container	{
 	width:85%;
 	margin:0 auto;
+	padding-top:50px;
+	padding-bottom:50px;
 }
 header	{
 	color:white;
@@ -48,9 +50,7 @@ button	{
 .www-image	{
 	width:300px;
 }
-main	{
-	padding-bottom:5%;
-}
+
 input	{
 	color:#CCCCCC;
 	padding:10px;
@@ -73,6 +73,9 @@ input[type=submit]
 	border:none;
 	padding:10px;
 	cursor:pointer;
+}
+.grey-bg	{
+	background-color: #EEEEEE;
 }
 .center	{
 	text-align:center;
@@ -143,13 +146,9 @@ a	{
 .header1	{
 	padding-right:10%;
 }
-.header2	{
-	background-color:#EEEEEE;
-}
 footer	{
 	position:relative;
 	bottom:0;
-	width:100%;
 	color:white;
 	background-color:#333333;
 	font-size:19px;
