@@ -50,7 +50,13 @@ button	{
 .www-image	{
 	width:300px;
 }
-
+.threedivs	{
+	width:32%;
+	display:inline-block;
+	vertical-align:top;
+	overflow:hidden;
+	font-size:20px;
+}
 input	{
 	color:#CCCCCC;
 	padding:10px;
@@ -118,10 +124,11 @@ ul	{
 }
 li	{
 	display:inline;
-	padding:8px;
 }
 a	{
 	color:white;
+	text-decoration:none;
+	padding-right:10px;
 }	
 .thirty 	{
 	position:relative;
