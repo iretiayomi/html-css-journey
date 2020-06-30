@@ -112,18 +112,14 @@ td	{
 }
 ul	{
 	list-style-type:none;
-	text-decoration:none;
-	margin:0%;
-	padding:0%;
+	margin:0;
+	padding:0;
 	overflow:hidden;
-}
-.logo	{
-	padding:8px;
-	float:left;
-	top:0;
 }
 li	{
 	display:inline;
+	margin-left: 20px;
+	top:0;
 }
 a	{
 	color:white;
@@ -135,19 +131,21 @@ a	{
 	width:35%;
 	display:inline-block;
 	overflow:hidden;
-	margin:0%;
+	margin:0;
 }
 .sixty	{
 	position:relative;
 	width:60%;
 	display:inline-block;
 	overflow:hidden;
-	margin:0%;
+	margin:0;
+	font-size:17px;
 }
 .image	{
-	width:60%;
+	width:200px;
 	height:auto;
 	margin:auto;
+	margin-bottom:50px;
 	padding:5%;
 }
 .header1	{
