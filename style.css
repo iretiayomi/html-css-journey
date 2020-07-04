@@ -13,10 +13,37 @@ body	{
 	padding-top:50px;
 	padding-bottom:50px;
 }
+.logo	{
+	position:fixed;
+	top:0;
+	left:0;
+	background-color:#19628A;
+}
+span	{
+	font-weight:bold;
+}
+ul	{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	position:fixed;
+	top:0;
+	right:0;
+	background-color:#19628A;
+}
+li	{
+	display:inline;
+	padding:8px 15px;
+}
+a	{
+	color:white;
+	text-decoration:none;
+	padding-right:10px;
+}	
 header	{
 	color:white;
 	background-color:#19628A;
-	padding-bottom:30px;
 }
 .fifty	{
 	width:49%;
@@ -110,22 +137,6 @@ td	{
 	padding:30px;
 	text-align:center;
 }
-ul	{
-	list-style-type:none;
-	margin:0;
-	padding:0;
-	overflow:hidden;
-}
-li	{
-	display:inline;
-	margin-left: 20px;
-	top:0;
-}
-a	{
-	color:white;
-	text-decoration:none;
-	padding-right:10px;
-}	
 .thirty 	{
 	position:relative;
 	width:35%;
