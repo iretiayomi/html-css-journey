@@ -14,22 +14,25 @@ body	{
 	padding-bottom:50px;
 }
 .logo	{
-	position:fixed;
+	position:absolute;
 	top:0;
-	left:0;
 	background-color:#19628A;
 }
 span	{
 	font-weight:bold;
+}
+nav ul	{
+	top:0;
+	position:absolute;
+	margin:0 auto;
+	padding:25px 0px;
 }
 ul	{
 	list-style-type:none;
 	margin:0;
 	padding:0;
 	overflow:hidden;
-	position:fixed;
-	top:0;
-	right:0;
+	position:absolute;
 	background-color:#19628A;
 }
 li	{
@@ -113,6 +116,11 @@ input[type=submit]
 .center	{
 	text-align:center;
 }
+.tablehead	{
+	margin-left:125px;
+	text-align:left;
+	position:relative;
+}
 table	{
 	margin-left:auto;
 	border-collapse:collapse;
@@ -125,7 +133,6 @@ th	{
 	vertical-align:middle;
 	padding:15px;
 	border-color:#CCCCCC;
-	
 }
 td	{
 	text-align:center;
