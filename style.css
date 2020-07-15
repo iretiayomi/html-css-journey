@@ -2,48 +2,17 @@ body	{
 	margin:0;
 	padding:0;
 	font-family:roboto;
-	font-size:24px;
+	font-size:22px;
 	letter-spacing:normal;
-	word-spacing:normal;
+	word-spacing:0.2em;
 	line-height:1.6em;
 }
 .container	{
-	width:85%;
+	width:90%;
 	margin:0 auto;
 	padding-top:50px;
 	padding-bottom:50px;
 }
-.logo	{
-	position:absolute;
-	top:0;
-	background-color:#19628A;
-}
-span	{
-	font-weight:bold;
-}
-nav ul	{
-	top:0;
-	position:absolute;
-	margin:0 auto;
-	padding:25px 0px;
-}
-ul	{
-	list-style-type:none;
-	margin:0;
-	padding:0;
-	overflow:hidden;
-	position:absolute;
-	background-color:#19628A;
-}
-li	{
-	display:inline;
-	padding:8px 15px;
-}
-a	{
-	color:white;
-	text-decoration:none;
-	padding-right:10px;
-}	
 header	{
 	color:white;
 	background-color:#19628A;
@@ -51,15 +20,40 @@ header	{
 .fifty	{
 	width:49%;
 	display:inline-block;
-	vertical-align:top;
 	overflow:hidden;
+	vertical-align:top;
+}
+nav	{
+	top:0;
+}
+ul	{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:#19628A;
+}
+li	{
+	display:inline;
+	padding:8px;
+	background-color:#19628A;
+}
+a	{
+	color:white;
+	text-decoration:none;
+}
+span	{
+	font-weight:bold;
 }
 h1	{
 	font-weight:bold;
-	font-size:50px;
+	font-size:45px;
 }
-h2	{
-	font-size:30px;
+.left {
+	text-align:left;
+}
+.center	{
+	text-align:center;
 }
 button	{
 	color:white;
@@ -74,29 +68,36 @@ button	{
 .paragraph	{
 	width:500px;
 }
+.www-image	{
+	width:300px;
+	margin-left:auto;
+}
 .right	{
 	text-align:right;
 }
-.www-image	{
-	width:300px;
+.grey-bg	{
+	background-color:#CCCCCC;
 }
 .threedivs	{
 	width:32%;
 	display:inline-block;
 	vertical-align:top;
+	text-align:center;
 	overflow:hidden;
+	font-family:roboto;
 	font-size:20px;
+	padding-right:5px;
 }
 input	{
 	color:#CCCCCC;
-	padding:10px;
-	border:1px solid #CCCCCC;
 	width:300px;
+	padding:15px;
+	border:1px solid #CCCCCC;
 }
 input[value=Message]
 {
 	width:300px;
-	height:120px;
+	height:150px;
 	padding:20px;
 }
 input[type=submit]
@@ -107,75 +108,54 @@ input[type=submit]
 	font-size:22px;
 	font-weight:bold;
 	border:none;
-	padding:10px;
+	padding:15px;
 	cursor:pointer;
 }
-.grey-bg	{
-	background-color: #EEEEEE;
-}
-.center	{
-	text-align:center;
-}
-.tablehead	{
-	margin-left:125px;
-	text-align:left;
-	position:relative;
+.table-margin	{
+	margin-left:80px;
 }
 table	{
-	margin-left:auto;
 	border-collapse:collapse;
+	width:350px;
 	border-color:#CCCCCC;
-	width:400px;
 }
 th	{
-	height:20px;
 	text-align:center;
 	vertical-align:middle;
-	padding:15px;
-	border-color:#CCCCCC;
+	padding:10px;
+	border-color: #CCCCCC;
 }
 td	{
 	text-align:center;
 	vertical-align:middle;
-	padding:12px;
-	border-color:#CCCCCC;
-}
-.s-header	{
-	padding:30px;
-	text-align:center;
+	padding:10px;
+	border-color: #CCCCCC;
 }
 .thirty 	{
 	position:relative;
 	width:35%;
 	display:inline-block;
 	overflow:hidden;
-	margin:0;
+	margin:0%;
 }
 .sixty	{
 	position:relative;
 	width:60%;
 	display:inline-block;
 	overflow:hidden;
-	margin:0;
-	font-size:17px;
+	margin:0%;
+	font-size:18px;
 }
 .image	{
-	width:200px;
-	height:auto;
-	margin:auto;
-	margin-bottom:50px;
-	padding:5%;
-}
-.header1	{
-	padding-right:10%;
+	width:250px;
 }
 footer	{
-	position:relative;
-	bottom:0;
 	color:white;
 	background-color:#333333;
-	font-size:19px;
-	padding:30px;
+	letter-spacing:normal;
+	word-spacing:0.2em;
+	padding:20px;
 	text-align:center;
+	clear:both;
 }
 
