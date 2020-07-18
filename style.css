@@ -8,9 +8,9 @@ body	{
 	line-height:1.6em;
 }
 .container	{
-	width:90%;
+	width:85%;
 	margin:0 auto;
-	padding-top:50px;
+	padding-top:30px;
 	padding-bottom:50px;
 }
 header	{
@@ -76,7 +76,10 @@ button	{
 	text-align:right;
 }
 .grey-bg	{
-	background-color:#CCCCCC;
+	background-color:#f5f5f5;
+}
+h2	{
+	color:black;
 }
 .threedivs	{
 	width:32%;
@@ -84,6 +87,7 @@ button	{
 	vertical-align:top;
 	text-align:center;
 	overflow:hidden;
+	color:#555555;
 	font-family:roboto;
 	font-size:20px;
 	padding-right:5px;
@@ -91,7 +95,7 @@ button	{
 input	{
 	color:#CCCCCC;
 	width:300px;
-	padding:15px;
+	padding:12px;
 	border:1px solid #CCCCCC;
 }
 input[value=Message]
@@ -137,6 +141,7 @@ td	{
 	display:inline-block;
 	overflow:hidden;
 	margin:0%;
+	color:#AAAAAA;
 }
 .sixty	{
 	position:relative;
@@ -152,10 +157,12 @@ td	{
 footer	{
 	color:white;
 	background-color:#333333;
+	font-size:18px;
 	letter-spacing:normal;
 	word-spacing:0.2em;
 	padding:20px;
 	text-align:center;
 	clear:both;
+	bottom:0;
 }
 
