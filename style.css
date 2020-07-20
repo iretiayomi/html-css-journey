@@ -115,7 +115,7 @@ input[type=submit]
 	padding:15px;
 	cursor:pointer;
 }
-.table-margin	{
+.margin-left	{
 	margin-left:80px;
 }
 table	{
@@ -140,8 +140,7 @@ td	{
 	width:35%;
 	display:inline-block;
 	overflow:hidden;
-	margin:0%;
-	color:#AAAAAA;
+	padding-bottom:50px;
 }
 .sixty	{
 	position:relative;
@@ -149,7 +148,7 @@ td	{
 	display:inline-block;
 	overflow:hidden;
 	margin:0%;
-	font-size:18px;
+	font-size:20px;
 }
 .image	{
 	width:250px;
