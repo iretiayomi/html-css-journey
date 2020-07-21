@@ -135,19 +135,23 @@ td	{
 	padding:10px;
 	border-color: #CCCCCC;
 }
+.row	{
+	display:flex;
+	align-items:stretch;
+}
 .thirty 	{
 	position:relative;
 	width:35%;
 	display:inline-block;
 	overflow:hidden;
-	padding-bottom:50px;
 }
 .sixty	{
 	position:relative;
 	width:60%;
 	display:inline-block;
 	overflow:hidden;
-	margin:0%;s
+	margin:0%;
+	columns: #555555;;
 }
 .image	{
 	width:250px;
