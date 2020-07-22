@@ -78,7 +78,7 @@ button	{
 .grey-bg	{
 	background-color:#f5f5f5;
 }
-h2	{
+.black	{
 	color:black;
 }
 .threedivs	{
@@ -116,7 +116,7 @@ input[type=submit]
 	cursor:pointer;
 }
 .margin-left	{
-	margin-left:80px;
+	margin-left:80px; 
 }
 table	{
 	border-collapse:collapse;
@@ -144,6 +144,7 @@ td	{
 	width:35%;
 	display:inline-block;
 	overflow:hidden;
+	margin:auto;
 }
 .sixty	{
 	position:relative;
@@ -151,7 +152,7 @@ td	{
 	display:inline-block;
 	overflow:hidden;
 	margin:0%;
-	columns: #555555;;
+	color:#555555;;
 }
 .image	{
 	width:250px;
