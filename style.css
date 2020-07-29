@@ -121,7 +121,7 @@ input[type=submit]
 	cursor:pointer;
 }
 .margin-left	{
-	margin-left:80px; 
+	margin-left:100px; 
 }
 table	{
 	border-collapse:collapse;
@@ -139,6 +139,9 @@ td	{
 	vertical-align:middle;
 	padding:10px;
 	border-color: #CCCCCC;
+}
+.services-p	{
+	width:850px;
 }
 .row	{
 	display:flex;
