@@ -80,7 +80,7 @@ button	{
 .grey-bg	{
 	background-color:#f5f5f5;
 }
-.black	{
+h2	{
 	color:black;
 }
 .threedivs	{
@@ -93,6 +93,9 @@ button	{
 	font-family:roboto;
 	font-size:20px;
 	padding-right:5px;
+}
+.three-p	{
+	width:300px	
 }
 input	{
 	color:#CCCCCC;
