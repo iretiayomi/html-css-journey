@@ -11,7 +11,7 @@ body	{
 	width:85%;
 	margin:0 auto;
 	padding-top:30px;
-	padding-bottom:50px;
+	padding-bottom:30px;
 }
 header	{
 	color:white;
@@ -140,8 +140,10 @@ td	{
 	padding:10px;
 	border-color: #CCCCCC;
 }
-.services-p	{
-	width:850px;
+.paragraph-width	{
+	text-align:center;
+	width:870px;
+	margin:auto;
 }
 .row	{
 	display:flex;
