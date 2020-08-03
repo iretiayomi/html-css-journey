@@ -99,19 +99,19 @@ h2	{
 }
 input	{
 	color:#CCCCCC;
-	width:80%;
+	width:350px;
 	padding:12px;
 	border:1px solid #CCCCCC;
 }
 input[value=Message]
 {
-	width:80%;
-	height:40%;
+	width:350px;
+	height:170px;
 	padding:20px;
 }
 input[type=submit]
 {
-	width:80%;
+	width:350px;
 	color:white;
 	background-color:#FD862F;
 	font-size:22px;
@@ -168,7 +168,7 @@ td	{
 	width:250px;
 }
 .m-image	{
-	width:70%;
+	width:310px;
 	padding-top:20%;
 }
 footer	{
