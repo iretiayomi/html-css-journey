@@ -95,7 +95,9 @@ h2	{
 	padding-right:5px;
 }
 .three-p	{
-	width:85%;
+	width:80%;
+	text-align:center;
+	margin:auto;
 }
 input	{
 	color:#CCCCCC;
@@ -170,6 +172,7 @@ td	{
 .m-image	{
 	width:310px;
 	padding-top:20%;
+	margin:auto;
 }
 footer	{
 	color:white;
